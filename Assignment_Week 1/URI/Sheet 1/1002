@@ -1,0 +1,7 @@
+a = float(input())
+
+area = 3.14159*a*a
+
+area = round(area,4)
+
+print("A=%.4f"%area)
