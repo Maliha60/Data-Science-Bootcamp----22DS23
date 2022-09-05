@@ -1,0 +1,9 @@
+a,b,c = list(map(int,input().split()))
+if a>=b and a>=c:
+    m = a
+elif b>=a and b>=c:
+    m = b
+else:
+    m = c
+
+print("{} eh o maior".format(m))
