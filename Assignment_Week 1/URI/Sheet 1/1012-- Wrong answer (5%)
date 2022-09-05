@@ -1,0 +1,14 @@
+line = input().split(" ")
+a, b, c = line
+a = float(a)
+b = float(b)
+c = float(c)
+#  a,b,c = list(map(float,input().split()))
+pi = 3.14159
+rectangle_triangle = (1/2.0)*a*c
+circle = pi*c*c
+trapezium = ((a+b)/2)*c
+square = a*a
+rectangle = a*b
+
+print("TRIANGULO: {0:.3f}\nCIRCULO: {1:.3f}\nTRAPEZIO: {2:.3f}\nQUADRADO: {3:.3f}\nRETANGULO: {4:.3f}".format(rectangle_triangle,circle,trapezium,square,rectangle))
