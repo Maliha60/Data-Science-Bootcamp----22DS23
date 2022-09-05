@@ -1,0 +1,5 @@
+pi = 3.14159
+r = float(input())
+sphare_vol = (4/3.0)*pi*r*r*r
+
+print("VOLUME = {0:.3f}".format(sphare_vol))
